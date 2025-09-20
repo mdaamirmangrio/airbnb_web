@@ -188,6 +188,7 @@ background-color: white;
   }
   .nav-link {
     font-size: 0.85rem !important;
+     margin-top: 1rem !important;
   }
     
 }
