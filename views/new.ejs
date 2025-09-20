@@ -1,0 +1,30 @@
+<% layout("layouts/boilerplate") %>
+<body>
+    <div class="newadd">
+        <h1>Add New Listing</h1>
+    <form action="/listing/new/add" method="post">
+
+        <label for="title">Title:</label> <br>
+        <input type="text" id="title" name="listing[title]" placeholder="title" required class="form-control mb-4">
+
+                <label for="title">Image Link:</label> <br>
+        <input type="text" id="title" name="listing[imagelink]" placeholder="image link" required class="form-control mb-4">
+
+
+        <label for="description">Description:</label> <br>
+        <textarea id="description" name="listing[description]" placeholder="description" class="form-control mb-4"></textarea>
+ 
+        <label for="price">Price:</label> <br>
+        <input type="number" id="price" name="listing[price]" placeholder="price" required class="form-control mb-4">
+
+        <label for="country">Country:</label> <br>
+        <input type="text" id="country" name="listing[country]" placeholder="country" required class="form-control mb-4">
+        
+        
+        <label for="location">Location:</label> <br>
+        <input type="text" id="location" name="listing[location]" placeholder="location" required class="form-control mb-4">
+
+        <button class="btn-primary" type="submit">Add Listing</button>
+    </form>
+    </div>
+</body>

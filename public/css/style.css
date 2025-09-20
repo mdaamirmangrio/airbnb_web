@@ -1,0 +1,174 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, Helvetica, sans-serif;
+     min-height: 100vh;    
+      display: flex;
+      flex-direction: column;
+
+}
+.container {
+    flex: 1;
+}   
+
+.alllisting {
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.alllisting:hover {
+    color:#fe424d;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+nav {
+height: 5rem;
+background-color: white;
+}
+
+.nav-item .nav-link  {
+    color: black !important;
+    font-weight: 450 !important;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+.list {
+     display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.list li {
+    display: inline;
+    gap: 1rem;
+    margin-right: 0.6rem;
+}
+
+
+.list li a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.list li a:hover {
+    text-decoration: underline;
+}
+.social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social i {
+ text-align: center;
+}
+
+.cardbox {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    cursor: pointer !important;
+    border: none !important;
+    width: 20rem !important;
+    height: 22rem !important;
+}
+.card:hover {
+    opacity: 0.7 !important;
+    transition: 0.3s !important;
+}
+.card img {
+    height: 15rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 1.2rem !important;
+}
+
+.card-body  .title{
+    margin-bottom: 0 !important;
+    font-weight: bold !important;
+}
+
+.editform {
+    width: 80% !important;
+    margin: auto !important;
+    margin-top: 2rem !important;
+    padding: 2rem 4rem !important;
+    border: 1.5px solid lightgrey !important;
+    border-radius: 1.5rem !important;
+    background-color: white !important;
+}
+
+.editform h1 {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.newadd {
+      width: 80% !important;
+    margin: auto !important;
+    margin-top: 2rem !important;
+    padding: 2rem 4rem !important;
+    border: 1.5px solid lightgrey !important;
+    border-radius: 1.5rem !important;
+    background-color: white !important; 
+}
+.newadd h1 {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+.btn-primary {
+    background-color: #fe424d !important;
+    padding: 0.5rem 1rem !important;
+    border: none !important;
+    border-radius: 8px !important;
+    color: white;
+    font-weight: 500 !important;
+}
+
+
+.showpage {
+    width: 70% !important;
+    margin: 2rem auto !important;
+    padding: 2rem 4rem !important;
+}
+.showpage img {
+    border-radius: 1.5rem !important;
+    height: 18rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    margin-bottom: 1rem !important;
+}
+.showpage h3 {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+} 
+
+.btns {
+    display: flex;
+    gap: 1rem;
+}

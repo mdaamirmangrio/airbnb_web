@@ -1,0 +1,22 @@
+<% layout("layouts/boilerplate") %>
+<body>
+    
+    <div class="editform">
+        <h1>Edit Listing</h1>
+    <form action="/listing/<%= listing._id %>/edit?_method=PUT" method="post">
+        <label for="title">Title:</label> <br>
+        <input type="text" id="title" name="listing[title]" value="<%= listing.title %>" required class="form-control mb-4">
+
+        <label for="description">Description:</label> <br>
+        <textarea id="description" name="listing[description]" required class="form-control mb-4" ><%= listing.description %></textarea>
+
+        <label for="price">Price:</label> <br>
+        <input type="number" id="price" name="listing[price]" value="<%= listing.price %>" class="form-control mb-4" required>
+        <label for="location">Location:</label> <br>
+        <input type="text" id="location" name="listing[location]" value="<%= listing.location %>" required class="form-control mb-4">
+        <label for="country">Country:</label> <br>
+        <input type="text" id="country" name="listing[country]" value="<%= listing.country %>" required class="form-control mb-4">
+        <button type="submit" class="btn btn-primary">Update Listing</button>
+    </form>
+    </div>
+</body>
