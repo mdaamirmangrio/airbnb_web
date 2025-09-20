@@ -35,6 +35,9 @@ app.get("/" , (req, res) => {
   res.send("<h1>Welcome to Home Page</h1><a href='/listing'>Go to Listings</a>");
 });
 
+app.get("/" , (req, res) => {
+  res.send("<h1>Welcome to Home Page</h1><a href='/listing'>Go to Listings</a>");
+});
 
 app.get("/listing", async (req, res) => {
   let allListings = await Listing.find({});
