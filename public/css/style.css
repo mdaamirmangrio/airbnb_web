@@ -186,6 +186,9 @@ background-color: white;
    flex-direction: row !important;
    gap: 1rem !important;
   }
+  .nav-link {
+    font-size: 0.85rem !important;
+  }
     
 }
 
