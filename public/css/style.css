@@ -24,6 +24,11 @@ height: 5rem;
 background-color: white;
 }
 
+
+.navbar .collapse.show {
+    height: auto !important;
+  }
+
 .nav-item .nav-link  {
     color: black !important;
     font-weight: 450 !important;
