@@ -94,13 +94,13 @@ background-color: white;
     margin-top: 2rem;
 }
 
-.card {
+.listing-card {
     cursor: pointer !important;
     border: none !important;
     width: 20rem !important;
     height: 22rem !important;
 }
-.card:hover {
+.listing-card:hover {
     opacity: 0.7 !important;
     transition: 0.3s !important;
 }

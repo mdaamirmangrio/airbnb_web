@@ -3,17 +3,13 @@
     <h3 class="alllisting">All listings</h3>
      <div class="cardbox">
        <% for(let listing of allListings) {  %> 
-        <div class="card" style="width: 20rem;" onclick="location.href='/listing/<%= listing._id %>'">
+        <div class="card listing-card" style="width: 20rem;" onclick="location.href='/listing/<%= listing._id %>'">
   <img src="<%= listing.image.url %>" class="card-img-top" alt="image">
   <div class="card-body">
     <p class="card-text title"><%= listing.title %></p>
     <p class="card-text">&#8360 <%- listing.price.toLocaleString() %>/night</p>
   </div>
 </div>
-
-
-
- 
        <% } %>
     </div>
 </body>
